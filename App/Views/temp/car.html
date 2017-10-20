@@ -1,0 +1,158 @@
+<div id="wrapper">
+    <div id="scoller">
+         <div id="pullDown">下拉刷新</div>
+            <div class="swiper-container banner">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="Content/image/img1.gif" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="shops">
+                <ul>
+                    <li>
+                        <i class="fa fa-bell bg-danger"></i>
+                        <span>车商城</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-chain bg-olive"></i>
+                        <span>分期购车</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-meanpath bg-teal"></i>
+                        <span>团购行动</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-cloud bg-lime"></i>
+                        <span>找二手车</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="backgrounds">
+                <img src="./Content/image/background.gif" alt="">
+            </div>
+            <div class="more">
+                <h2>车主服务</h2>
+                <ul>
+                    <li>
+                        <i class="fa fa-tumblr"></i>
+                        <span>油卡充值</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-bell"></i>
+                        <span>低价保险</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-chain"></i>
+                        <span>4S店保养</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-meanpath"></i>
+                        <span>品质轮胎</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-tumblr"></i>
+                        <span>车品商城</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-cube"></i>
+                        <span>洗车</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-cc"></i>
+                        <span>违章代缴</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-glide"></i>
+                        <span>免费测评</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-cog"></i>
+                        <span>查周边</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-address-book"></i>
+                        <span>车主卡</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-exclamation"></i>
+                        <span>领劵保养</span>
+                    </li>
+                    <li>
+                        <i class="fa fa-lastfm"></i>
+                        <span>全部</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="times">
+                <h2>限时抢购 <span><em>13</em> ：<em>13</em> ：<em>13</em></span></h2>
+                <div class="swiper-container lun">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <dl>
+                                <dt><img src="Content/image/time1.gif" alt=""></dt>
+                                <dd>
+                                    <h4>补胎工具简易装套</h4>
+                                    <p><b>￥9.9元</b><em>28元</em></p>
+                                </dd>
+                            </dl>
+                        </div>
+                        <div class="swiper-slide">
+                            <dl>
+                                <dt><img src="Content/image/time2.gif" alt=""></dt>
+                                <dd>
+                                    <h4>补胎工具简易装套</h4>
+                                    <p><b>￥9.9元</b><em>28元</em></p>
+                                </dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="huodong">
+                <h2>活动专区 <span>更多活动 ></span></h2>
+                <div class="jia">
+                    <dl>
+                        <dd>
+                            <h3>测身价炫富</h3>
+                            <p>身价大PK</p>
+                        </dd>
+                        <dt><img src="./Content/image/img3.gif" alt=""></dt>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <h3>测身价炫富</h3>
+                            <p>身价大PK</p>
+                        </dd>
+                        <dt><img src="./Content/image/img2.gif" alt=""></dt>
+                    </dl>
+                    <dl>
+                        <dd>
+                            <h3>测身价炫富</h3>
+                            <p>身价大PK</p>
+                        </dd>
+                        <dt><img src="./Content/image/img3.gif" alt=""></dt>
+                    </dl>
+                </div>
+            </div>
+            <div class="bottom">
+                <h2>猜你喜欢 <span>更多 ></span></h2>
+                <div class="dls">
+                    <dl ng-repeat="list in products">
+                        <dt><img ng-src={{list.src}} alt=""></dt>
+                        <dd >
+                            <h3>{{list.names}}</h3>
+                            <h4>{{list.con}}</h4>
+                            <p><b>{{list.money}}</b><em>{{list.del}}</em></p>
+                        </dd>
+                    </dl>
+                </div>
+
+            </div>
+
+        <div id="pullUp">上拉加载</div>
+    </div>
+</div>
+
+

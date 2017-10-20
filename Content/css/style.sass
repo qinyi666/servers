@@ -1,0 +1,247 @@
+body
+  position: absolute
+  top: 0
+  bottom: 0
+  width: 100%
+  display: -webkit-flex
+  -webkit-flex-direction: column
+  font-size: .12rem
+  background-color: #eee
+.header
+  height: .45rem
+  font-size: .15rem
+  background-color: white
+  &>.as
+    text-align: center
+    line-height: .45rem
+  .right
+    position: absolute
+    right: .12rem
+    top: .15rem
+.section
+  -webkit-flex: 1
+  overflow-y: scroll
+  position: relative
+  #wrapper
+    position: absolute
+    top: 0
+    bottom: 0
+    width: 100%
+
+  #pullUp,#pullDown
+    height: 30px
+    line-height: 30px
+    background: teal
+    color: #fff
+    text-align: center
+    border-bottom: 1px solid #ccc
+  .banner
+    height: auto
+    .swiper-slide
+      &>img
+        width: 100%
+        height: 100%
+  .shops
+    height: 1.2rem
+    background-color: white
+    &>ul
+      display: -webkit-flex
+      &>li
+        -webkit-flex: 1
+        text-align: center
+        &>span
+          display: block
+          padding-top: .1rem
+          font-size: .15rem
+        &>i
+          font-size: .3rem
+          padding: .15rem
+          border-radius: .3rem
+          margin-top: .1rem
+          color: white
+  .backgrounds
+    height: .8rem
+    background-color: #ECF1F4
+    padding-left: .1rem
+    padding-right: .1rem
+    box-sizing: border-box
+    &>img
+      width: 100%
+      margin-top: .1rem
+  .more
+    height: auto
+    background-color: white
+    margin-bottom: .15rem
+    &>h2
+      padding-left: .1rem
+      box-sizing: border-box
+      line-height: .6rem
+      font-size: .16rem
+    &>ul
+      display: -webkit-flex
+      -webkit-flex-wrap: wrap
+      &>li
+        width: 25%
+        text-align: center
+        height: .8rem
+        border-top: 1px solid #ccc
+        border-right: 1px solid #ccc
+        padding-top: .1rem
+        &>i
+          font-size: .2rem
+        &:nth-child(4n)
+          border-right: none
+          &>i
+            color: indianred
+        &:nth-child(3n)
+          &>i
+            color: blueviolet
+        &>span
+          display: block
+          padding-top: .1rem
+  .times
+    background-color: white
+    &>h2
+      font-size: .16rem
+      padding-left: .1rem
+      box-sizing: border-box
+      line-height: .6rem
+      position: relative
+      &>span
+        position: absolute
+        top: 0
+        right: .1rem
+        font-size: .14rem
+        &>em
+          border-radius: .1rem
+          padding: .05rem .1rem
+          color: white
+          background-color: #001f3f
+    .lun
+      height: auto
+      .swiper-slide
+        &>dl
+          padding-left: .1rem
+          padding-right: .1rem
+          box-sizing: border-box
+          &>dt
+            &>img
+              width: 3rem
+              height: auto
+          &>dd
+            &>h4
+              font-size: .14rem
+              line-height: .3rem
+              color: #2b542c
+            &>p
+              font-size: .14rem
+              line-height: .3rem
+              &>b
+                color: orange
+                padding-right: .15rem
+              &>em
+                text-decoration: line-through
+  .huodong
+    background-color: white
+    margin-top: .15rem
+    &>h2
+      padding-left: .1rem
+      box-sizing: border-box
+      line-height: .6rem
+      position: relative
+      font-size: .16rem
+      &>span
+        position: absolute
+        top: 0
+        right: .1rem
+        font-size: .14rem
+    &>.jia
+      display: -webkit-flex
+      border-top: 1px solid #ccc
+      &>dl
+        -webkit-flex: 1
+        border-right: 1px solid #ccc
+
+        &>dt
+          width: 1rem
+          height: 1rem
+          padding-bottom: .1rem
+          &>img
+            width: 100%
+            height: 100%
+        &>dd
+          padding-left: .1rem
+          padding-top: .1rem
+          box-sizing: border-box
+          &>h3
+            font-size: .14rem
+            line-height: .2rem
+          &>p
+            color: orange
+            font-size: .12rem
+            line-height: .2rem
+  .bottom
+    background-color: white
+    margin-top: .15rem
+    &>h2
+      padding-left: .1rem
+      box-sizing: border-box
+      line-height: .6rem
+      position: relative
+      font-size: .16rem
+      &>span
+        position: absolute
+        top: 0
+        right: .1rem
+        font-size: .14rem
+    &>.dls
+      display: -webkit-flex
+      border-top: 1px solid #ccc
+      -webkit-flex-wrap: wrap
+      &>dl
+        width: 50%
+        border-right: 1px solid #ccc
+        border-bottom: 1px solid #ccc
+        padding: .15rem
+        box-sizing: border-box
+        &>dt
+          width: 1rem
+          height: auto
+          &>img
+            width: 100%
+            height: 100%
+        &:nth-child(2n)
+          border-right: none
+        &>dd
+          &>h3
+            font-size: .14rem
+            line-height: .2rem
+            color: black
+          &>h4
+            font-size: .14rem
+            line-height: .3rem
+            color: #2b542c
+            white-space: nowrap
+            overflow: hidden
+            text-overflow: ellipsis
+          &>p
+            font-size: .14rem
+            line-height: .2rem
+            &>b
+              color: orange
+              padding-right: .15rem
+            &>em
+              text-decoration: line-through
+.footer
+  height: .45rem
+  background-color: white
+  &>ul
+    display: -webkit-flex
+    &>li
+      -webkit-flex: 1
+      text-align: center
+      &>span
+        display: block
+
+
+
